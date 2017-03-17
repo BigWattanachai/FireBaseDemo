@@ -20,13 +20,15 @@ android {
 }
 
 ext.supportLibraryVersion = '25.2.0'
-ext.firebaseConfigVersion = '10.2.0'
+ext.firebaseVersion = '10.2.0'
 ext.smarttablayoutVersion = '1.6.1@aar'
 ext.constraintLayoutVersion = '1.0.2'
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile "com.android.support:appcompat-v7:${supportLibraryVersion}"
+    compile "com.android.support:design:${supportLibraryVersion}"
     compile "com.android.support.constraint:constraint-layout:${constraintLayoutVersion}"
-    compile "com.google.firebase:firebase-config:${firebaseConfigVersion}"
+    compile "com.google.firebase:firebase-config:${firebaseVersion}"
+    compile "com.google.firebase:firebase-core:${firebaseVersion}"
     compile "com.ogaclejapan.smarttablayout:library:${smarttablayoutVersion}"
 }

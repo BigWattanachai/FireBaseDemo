@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">FireBaseDemo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pageOne">Page 1</string>
+    <string name="pageTwo">Page 2</string>
+    <string name="tab1String">Page 1</string>
+    <string name="tab2String">Page 2</string>
+    <string name="one">ONE</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
 </resources>
